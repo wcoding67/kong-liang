@@ -43,34 +43,17 @@
 
   <main>
     <section class="hero">
-      <h1 id="mainName">Kong Liang</h1>
-      <p id="subtitle">A simple demo page showing the name selector — click the buttons above or the chips below.</p>
-      <div class="names">
-        <button class="nameBtn active" data-name="Kong Liang">Kong Liang</button>
-        <button class="nameBtn" data-name="Ethen">Ethen</button>
-      </div>
+      <h1 id="mainName">Rate Kong Liang</h1>
+      <p id="subtitle">Give your rating for Kong Liang below.</p>
     </section>
 
-    <section class="section" id="about">
-      <div class="card">
-        <h3>About this demo</h3>
-        <p>This single-page HTML file demonstrates how to toggle between two names — "Kong Liang" and "Ethen" — and update the page dynamically with JavaScript. You can edit the names in the markup or replace them with your own.</p>
-      </div>
-    </section>
-
-    <section class="section" id="gallery">
-      <h3 style="margin-bottom:12px">Gallery</h3>
-      <div class="cards">
-        <div class="card">Project A</div>
-        <div class="card">Project B</div>
-        <div class="card">Project C</div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="card">
-        <h3>Contact</h3>
-        <p>If you want this name to appear somewhere specific on the site, tell me where and I'll update the file.</p>
+    <section class="section" id="rating">
+      <div class="card" style="text-align:center">
+        <h3 style="margin-bottom:10px">Rate Kong Liang</h3>
+        <div id="stars" style="font-size:32px; cursor:pointer; margin-bottom:10px;">
+          ★ ★ ★ ★ ★
+        </div>
+        <p id="result" style="font-size:18px; font-weight:600; color:#444">Click a star to rate</p>
       </div>
     </section>
   </main>
